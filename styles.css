@@ -119,6 +119,66 @@ header nav ul a {
     justify-content: center;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    align-items: start;
+    max-width: 400px;
+}
+
+form input {
+    padding: 5px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    width: 200px;
+}
+
+form select {
+    padding: 5px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    width: 200px;
+}
+
+form textarea {
+    padding: 5px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    width: 350px;
+}
+
+form button {
+    padding: 10px;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(153, 0, 255) ;
+    border-color: rgb(78, 2, 69);
+    color: white;
+}
+
+form button:hover {
+    background-color: rgb(78, 2, 69);
+    border-color: rgb(153, 0, 255);
+}
+
+.divform {
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin: 0 0 0 20px;
+}
+
 footer {
     display: flex;
     flex-direction: row;

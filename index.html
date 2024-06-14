@@ -54,6 +54,47 @@
                 <h3>UX & UI</h3>
             </div>
         </section>
+        <section>
+            <div class="divform">
+                <h3>Déjame tus datos para contactarte</h3>
+                <form class="formulario" id="formulariohome" action="https://docs.google.com/spreadsheets/d/10574dImWBXjcrlaZxYMZfwPIALBRdlasS6Qf8o9O9-o/edit?usp=sharing" method="post">
+                    <label for="nombre">Nombre</label>
+                    <input
+                    type="text"
+                    name="nombre"
+                    placeholder="Ingrese un nombre"
+                    id="nombre"
+                    required/>
+                    <label for="Empresa">Empresa</label>
+                    <input
+                    type="text"
+                    name="empresa"
+                    placeholder="Ingrese su empresa"
+                    id="nombre"
+                    required/>
+                    <label for="celular">Celular</label>
+                    <input
+                    type="text"
+                    name="celular"
+                    placeholder="Ingrese su celular"
+                    id="nombre"
+                    required/>
+                    <label for="pais">Pais</label>
+                    <select name="pais" id="pais">
+                        <option value="argentina">Argentina</option>
+                        <option value="bolivia">Bolivia</option>
+                        <option value="chile">Chile</option>
+                        <option value="peru">Perú</option>
+                        <option value="uruguay">Uruguay</option>
+                        <option value="venezuela">Venezuela</option>
+                        <option value="default" selected>Seleccionar</option>
+                    </select>
+                    <label for="consulta">Escriba su consulta</label>
+                    <textarea name="consulta" id="consulta"></textarea>
+                    <button type="submit"><strong>ENVIAR</strong></button>
+                </form>
+            </div>
+        </section>
     </main>
 </body>
 <button id="btn-generar">Generar Frase Aleatoria</button>
